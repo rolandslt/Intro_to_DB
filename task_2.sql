@@ -1,7 +1,4 @@
--- Corrected Task 0: alx_book_store.sql
-
-CREATE DATABASE IF NOT EXISTS alx_book_store;
-USE alx_book_store;
+-- Task 2: Create all tables in alx_book_store
 
 CREATE TABLE Authors(
     author_id INT PRIMARY KEY,
