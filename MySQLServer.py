@@ -12,9 +12,9 @@ try:
         mycursor = mydb.cursor()
         mycursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
 
-        print("Database 'als_bo0k_store' created successfully! ")
+        print("Database 'als_book_store' created successfully! ")
 
-except Error as e:
+except mysql.connector.Error as e:
     print(f"Failed to connect ot the  database : {e}" )
 
 
